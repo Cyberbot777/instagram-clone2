@@ -1,6 +1,5 @@
 # Instagram Clone 2
 
-![Project Status](https://img.shields.io/badge/status-completed-green)
 
 **A simplified Instagram post clone built for 4Geeks Academy bootcamp.**
 
