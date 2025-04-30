@@ -1,41 +1,89 @@
+body {
+  background-color: #000;
+}
 .post-container {
-    max-width: 600px;
-    margin: 20px auto;
-    border: 1px solid #dbdbdb;
-    background-color: #fff;
-    border-radius: 8px;
-    overflow: hidden;
-    font-family: 'Roboto', sans-serif;
+  max-width: 700px;
+  margin: 20px auto;
+  background-color: #fff;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+  transform: scale(0.75);
+  transform-origin: center;
 }
 .post-header {
-    display: flex;
-    align-items: center;
-    padding: 10px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+.profile-info {
+  display: flex;
+  align-items: center;
 }
 .profile-pic {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin-right: 10px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  margin-right: 15px;
 }
 .username {
-    font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+.username-main {
+  font-weight: 750;
+  font-size: 22px;
+}
+.username-sub {
+  font-weight: 400;
+  font-size: 22px;
+  color: black;
+}
+.ellipsis-icon {
+  font-size: 48px;
+  color: #000;
+  cursor: pointer;
+}
+.post-image {
+  width: 100%;
+  height: 540px;
+  line-height: 0;
 }
 .post-image img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 .post-footer {
-    padding: 10px;
+  padding: 20px;
 }
-.icons i {
-    font-size: 24px;
-    margin-right: 15px;
-    cursor: pointer;
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
 }
-.caption {
-    margin-top: 10px;
+.left-icons i {
+  font-size: 48px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.bookmark-icon {
+  font-size: 48px;
+  cursor: pointer;
+}
+.liked-by {
+  margin: 10px 0;
+  font-size: 22px;
+  font-weight: 400;
+}
+.caption-text {
+  margin: 10px 0;
+  font-size: 22px;
+  font-weight: 400;
 }
 .liked {
-    color: red;
+  color: red;
 }
