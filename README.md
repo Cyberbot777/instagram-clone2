@@ -10,10 +10,9 @@ This project is my first assignment for the 4Geeks Academy coding bootcamp and m
 - A main image
 - A footer with like, comment, share icons, and a caption
 
-It uses HTML, CSS, and JavaScript, styled with Bootstrap, Font Awesome icons, and Roboto font from Google Fonts. Images are sourced from Pexels.
+It uses HTML, CSS, and JavaScript, Font Awesome icons, and Roboto font from Google Fonts. Images are sourced from Pexels.
 
 ## Features
-- **Responsive Design**: Adapts seamlessly to various screen sizes using Bootstrap.
 - **Interactive Like Button**: Toggles heart icon and color on click.
 - **Modern Styling**: Employs Roboto font for an Instagram-like aesthetic.
 - **High-Quality Images**: Free, royalty-free images from Pexels.
@@ -22,7 +21,6 @@ It uses HTML, CSS, and JavaScript, styled with Bootstrap, Font Awesome icons, an
 - **HTML5**: Structure
 - **CSS3**: Styling
 - **JavaScript**: Interactivity
-- **Bootstrap 5.3**: Responsive layout
 - **Font Awesome 6.0**: Icons
 - **Google Fonts (Roboto)**: Typography
 - **Pexels**: Image sourcing
