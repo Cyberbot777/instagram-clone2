@@ -1,10 +1,10 @@
 # Instagram Clone 2
 
 
-**A simplified Instagram post clone built for 4Geeks Academy bootcamp.**
+**A simplified Instagram post clone.**
 
 ## Overview
-This project is my first assignment for the 4Geeks Academy coding bootcamp and my second Instagram clone (following a pre-work course project). It recreates a single Instagram post, featuring:
+This project recreates a single Instagram post, featuring:
 
 - A header with profile picture and username
 - A main image
